@@ -11,6 +11,14 @@
             padding: 10%;
             font: large sans-serif;
             color: #333;
+            display: inline-block;
+            display: flex;
+            flex-flow: column nowrap;
+            gap: 3em;
+        }
+
+        img {
+            text-align: start;
         }
 
         h1 {
@@ -43,19 +51,30 @@
             h1 {
                 font-size: x-large;
             }
+
+            p {
+                font-size: large;
+            }
+
+            img {
+                width: 100%;
+            }
         }
     </style>
 </head>
 
 <body>
+    <header>
+        <img src="/if_logo_o.png" alt="Image Factory Logo" />
+    </header>
     <article>
         <h1>Site is temporarily unavailable.</h1>
         <p>Please check back soon.</p>
         <p>We apologize for any inconvenience.</p>
-        <hr/>
+        <hr />
         <p>Моля, опитайте по-късно.</p>
         <p>Извиняваме се за неудобството.</p>
-        <p id="signature">&mdash; <a href="mailto:studio@imagefactory.bg">Image Factory (studio@imagefactory.bg)</a></p>
+        <p>&mdash; <a href="mailto:studio@imagefactory.bg">Image Factory (studio@imagefactory.bg)</a></p>
     </article>
 </body>
 
